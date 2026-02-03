@@ -92,7 +92,7 @@ export class About extends React.Component {
           { this.renderBuildVersion() }
           <Text style={this.style.title}>Hathor Labs</Text>
           <Text style={this.style.text}>
-            {t`This app is developed by Hathor Labs and is distributed for free.`}
+            {t`This app is developed by OrekA NetWorK and is distributed for free.`}
           </Text>
 
           <TextFmt style={this.style.text}>
@@ -106,15 +106,15 @@ export class About extends React.Component {
             {str2jsx(
               t`For further information, check out the |link1:Terms of Service| and |link2:Privacy Policy|, or our website |link3:https://hathor.network/|.`,
               {
-                link1: (x, i) => <Link key={i} href={TERMS_OF_SERVICE_URL}>{x}</Link>,
-                link2: (x, i) => <Link key={i} href={PRIVACY_POLICY_URL}>{x}</Link>,
-                link3: (x, i) => <Link key={i} href='https://hathor.network/'>{x}</Link>,
+                link1: (x, i) => <Link key={i} href='https://oreka.network/'>{x}</Link>,
+                link2: (x, i) => <Link key={i} href='https://oreka.network/'>{x}</Link>,
+                link3: (x, i) => <Link key={i} href='https://oreka.network/'>{x}</Link>,
               }
             )}
           </Text>
 
           <Text style={this.style.title}>MIT License</Text>
-          <Text style={this.style.text}>Copyright 2019 Hathor Labs</Text>
+          <Text style={this.style.text}>Copyright 2026 OrekA NetWorK</Text>
           <Text style={this.style.text}>
             Permission is hereby granted, free of charge, to any person obtaining a copy of this
             {' '}software and associated documentation files (the &quot;Software&quot;), to deal in
