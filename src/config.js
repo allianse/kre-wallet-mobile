@@ -1,5 +1,5 @@
 /**
- * Copyright (c) Hathor Labs and its affiliates.
+ * Copyright (c) OrekA NetWorK and its affiliates.
  *
  * This source code is licensed under the MIT license found in the
  * LICENSE file in the root directory of this source tree.
@@ -20,7 +20,7 @@ import hathorLib from '@hathor/wallet-lib';
  * . remove register/unregister token options;
  * . remove create new token option;
  */
-export const _IS_MULTI_TOKEN = true;
+export const _IS_MULTI_TOKEN = false;
 
 /**
  * Default token.
@@ -37,8 +37,8 @@ export const _IS_MULTI_TOKEN = true;
  * }}
  * @default
  * {
- *   name: 'Hathor',
- *   symbol: 'HTR',
+ *   name: 'K-RE',
+ *   symbol: 'KRE',
  *   uid: '00'
  * }
  */
@@ -56,7 +56,7 @@ export const SKIP_SEED_CONFIRMATION = false;
 /**
  * App's primary color (Hathor purple)
  */
-export const _PRIMARY_COLOR = '#8C46FF';
+export const _PRIMARY_COLOR = '#437f94';
 
 /**
  * Sentry DSN to send errors
