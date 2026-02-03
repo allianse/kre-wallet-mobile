@@ -59,7 +59,7 @@ class WelcomeScreen extends React.Component {
       <View style={{ flex: 1 }}>
         <HathorHeader withLogo />
         <View style={this.style.container}>
-          <Text style={this.style.title}>{t`Welcome to Hathor Wallet!`}</Text>
+          <Text style={this.style.title}>{t`Welcome to OrekA K-RE Wallet!`}</Text>
           <View>
             <TextFmt style={this.style.text}>
               {t`This wallet is connected to the **mainnet**.`}
